@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galelio Layout</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .parent {
+
+            border: 1px solid;
+            width: Fixed (1, 512px)px;
+            height: Fixed (3, 300px)px;
+            top: -6px;
+            left: -601px;
+            gap: 0px;
+            opacity: 0px;
+            background: black;
+            margin: auto;
+
+        }
+
+        .container {
+
+            width: 1512px;
+            height: 588px;
+            top: -6px;
+            left: -601px;
+            gap: 0px;
+            opacity: 0px;
+            border: 1px solid;
+            background-image: url("https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cGns9Q4dqBu3ougRwlpJPYwqFeyRLIjpONLLWQpCNqtXG6o7deKd9F2u2OlIL8Ash8iddpV6imlUg2iFENDsYXX8hJarK-YYO0KG3PQjcHzfc18DtryQfQzzXeabAoO0NGjLQnjlIjlgz4iDuOPqu1olBIPzKFVSzvyvew3PRr-YGql4Nm26rSXD3Y2JV0QUhROCF0NHY0vwZww2M~JMFDXFvW3NzavyoCdqwxw5ra1rWqho~jPbpM142G3OWPDKdDYZZ4GIDY0O68Jbx~v6-5UcouxNVcjwNYxvCpc-7igN8cdUKQn5zhQv8mY6V2U7yr2wB5mpXVSt2tW74FMidA__");
+            margin: auto;
+        }
+
+        .nav {
+            display: flex;
+
+
+        }
+
+        .nav>div>img {
+            width: 106px;
+            height: 117px;
+            top: 21px;
+            left: -513px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 27px;
+            margin-left: 88px;
+        }
+
+        .nav>div>h4 {
+            width: 122px;
+            height: 32px;
+            top: 50px;
+            left: -403px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 56px;
+            margin-left: 4px;
+        }
+
+        .nav>div>ul {
+            display: flex;
+            width: Fixed (583px)px;
+            height: Hug (52px)px;
+            top: 40px;
+            left: -103px;
+            padding: 16px 24px 16px 24px;
+            gap: 24px;
+            border-radius: 20px 20px 20px 20px;
+            opacity: 0px;
+            background: #191818;
+            margin-top: 46px;
+            margin-left: 178px;
+
+        }
+
+        .nav>div>ul>li {
+            font-family: ZCOOL KuaiLe;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            list-style: none;
+        }
+
+        .nav>div:last-child {
+            width: 127px;
+            height: 38px;
+            top: 48px;
+            left: 695px;
+            padding: 10px 16px 10px 16px;
+            gap: 6.18px;
+            border-radius: 15.44px 15.44px 15.44px 15.44px;
+            opacity: 0px;
+            background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+            margin-top: 54px;
+            margin-right: 89px;
+            margin-left: 215px;
+            text-align: center;
+
+        }
+
+        .nav>div>button {
+            top: 10px;
+            left: 16px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            text-align: center;
+            background: none;
+            color: #FFFFFF;
+            border: none;
+            padding-top: 10px;
+
+        }
+
+        .container>h2 {
+            width: 1262px;
+            height: 108px;
+            top: 270px;
+            left: -478px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 53.55px;
+            text-align: center;
+            color: #FBF6F6;
+            margin-top: 178px;
+            margin-left: 123px;
+            margin-right: 127px;
+
+        }
+
+        .intro {
+            display: flex;
+            width: 1512px;
+            height: 716px;
+            top: 1261px;
+            left: -601px;
+            gap: 0px;
+            opacity: 0px;
+            background: #191818;
+            margin: auto;
+        }
+
+        .intro>div>div>h2 {
+            width: 389px;
+            height: 52px;
+            top: 671px;
+            left: -438px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+            margin-top: 89px;
+            margin-left: 163px;
+
+        }
+
+        .intro>div>div>p {
+            width: 587px;
+            height: 207px;
+            top: 747px;
+            left: -435px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: ZCOOL KuaiLe;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.56px;
+            text-align: left;
+            color: #FFFCFD;
+            margin-top: 24px;
+            margin-left: 166px;
+
+        }
+
+        .intro>div>div>button {
+            width: Hug (178.94px)px;
+            height: Hug (54.06px)px;
+            top: 1042px;
+            left: -435px;
+            padding: 17.03px 21.29px 17.03px 21.29px;
+            gap: 11.35px;
+            border-radius: 21.92px 21.92px 21.92px 21.92px;
+            opacity: 0px;
+            background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+            padding-top: 17.03px;
+            padding-bottom: 17.03px;
+            padding-left: 21.29px;
+            padding-right: 48.65px;
+            margin-left: 166px;
+            color: #FFFFFF;
+        }
+
+        .intro>div>img {
+            width: 795px;
+            height: 795px;
+            top: 505px;
+            left: 122px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .map {
+            width: 1512px;
+            height: 716px;
+            top: 1261px;
+            left: -601px;
+            gap: 0px;
+            opacity: 0px;
+            background-image: url("https://s3-alpha-sig.figma.com/img/7fb8/c9c7/2e63edc105c3925cfa651946f437c2fd?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UQubOlNQP7gDPm0i0y14xyNybwceVE6LvH4pFWajfVTyNhJB9yQu5IDGCWdXbRG-q6GdYjGL1L8sbnvdGucwinUMCtcEovHkHww3s2I9PbyR~R3Z2xsv5hAEd1GGiKPMOkfk8~5JAiql6VCW1dr5yR8-P0KHsCkb282XauTMQWoLfcCPKpCcUsn6perApmpu58rOqysbIHs2BZqF0ldZqcLl0UBZlHanAX2f2EPRro9JRWpovV96j7S9K8wj0BvkBku4UT6Fuz0YcNfT0AEqjcGNpxMZam~cBrI6KUfJe~-4bOfq3s5LPSJNUOJT2IcyaviCw0SIp2v0W8blriG5~g__");
+            margin: auto;
+
+        }
+
+        .map>div>h2 {
+            width: 282px;
+            height: 52px;
+            top: 64px;
+            left: 613px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+            margin: auto;
+            padding-top: 64px;
+            padding-bottom: 112px;
+            
+
+        }
+
+        .map>div:last-child {
+         
+            display: flex;
+            flex-wrap: wrap;
+            width: 1159.1px;
+            height: 349px;
+            top: 228px;
+            left: 161px;
+            padding: 0px;
+            gap: 0px;
+            opacity: 0px;
+            animation-delay: 800ms;
+            justify-content: space-between;
+            margin-left: 161px;
+            
+           
+
+        }
+
+        .map>div>div {
+          
+            width: Fixed (237.06px)px;
+            height: Hug (349px)px;
+            gap: 0px;
+            border-radius: 13.17px 13.17px 13.17px 13.17px;
+            opacity: 0px;
+            border: 1px solid #EF490F;
+            width: Fixed (237.06px)px;
+            height: Hug (349px)px;
+            gap: 0px;
+            border-radius: 13.17px 13.17px 13.17px 13.17px;
+            opacity: 0px;
+            width: 239.25px;
+            height: 351.2px;
+            gap: 0px;
+            border-radius: 13.17px 13.17px 13.17px 13.17px;
+            opacity: 0px;
+            color: linear-gradient(336.22deg, #ED0137 0%, #EF490F 98.46%);
+            width: 234.86px;
+            height: 346.81px;
+            gap: 0px;
+            border-radius: 13.17px 13.17px 13.17px 13.17px;
+            opacity: 0px;
+            background: #060818;
+            width: 237.06px;
+            height: 349px;
+            gap: 0px;
+            border: 1px solid #EF490F;
+            border-radius: 17.56px 17.56px 17.56px 17.56px;
+            opacity: 0px;
+            width: 237.06px;
+            height: 349px;
+            gap: 0px;
+            border-radius: 13.17px 13.17px 13.17px 13.17px;
+            opacity: 0px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 28, 61, 0.2) 70%, rgba(237, 1, 55, 0.09) 100%);
+
+        }
+
+        .map>div>div>img {
+            width: 237.06px;
+            height: 349px;
+            left: 237.06px;
+            gap: 0px;
+            opacity: 0px;
+            rotate: -180 deg;
+            border-radius: 17.56px 17.56px 17.56px 17.56px;
+
+        }
+
+        .faq {
+            width: 1512px;
+            background: #191818;
+            margin: auto;
+            margin-top: -2%;
+        }
+
+        .faq>h2 {
+            width: 119px;
+            height: 52px;
+            top: 2041px;
+            left: 341px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.36px;
+            text-align: left;
+            color: #ED0137;
+            margin-left: 942px;
+            padding-top: 64px;
+
+        }
+
+        .faq>div {
+            display: flex;
+        }
+
+        .faq>div>div>img {
+            width: 503px;
+            height: 503px;
+            top: 2086px;
+            left: -515px;
+            gap: 0px;
+            opacity: 0px;
+            margin-left: 86px;
+            margin-bottom: 277px;
+        }
+
+        .faq>div>div>div {
+            width: 640px;
+            height: 77px;
+            top: 2157px;
+            left: 81px;
+            gap: 0px;
+            opacity: 0px;
+            background: #0F0F0F;
+            border: 1px solid #ED0137;
+            color: #FFFFFF;
+            border-radius: 20px 20px 20px 20px;
+            margin-bottom: 16px;
+            align-content: center;
+
+        }
+
+        .faq>div>div>div:last-child {
+            width: 640px;
+            height: 219px;
+            top: 93px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        .faq>div>div>div>span>b {
+            width: 286px;
+            height: 26px;
+            top: 27px;
+            left: 121px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Shojumaru;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26.48px;
+            text-align: left;
+
+        }
+
+        .faq>div>div:last-child {
+            margin-left: 93px;
+            margin-top: 71px;
+        }
+
+        .faq>div>div>div>p {
+            top: 85px;
+            left: 37px;
+            gap: 0px;
+            border-radius: 20px 20px 20px 20px;
+            opacity: 0px;
+            background: #EEEEEE0A;
+            width: 524px;
+            height: 46px;
+            top: 101px;
+            left: 59px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: ZCOOL KuaiLe;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25.56px;
+            text-align: left;
+            margin-left: 37px;
+            margin-top: 32px;
+            margin-right: 35px;
+            padding-left: 22px;
+            padding-top: 16px;
+            padding-bottom: 21px;
+        }
+
+        .faq>div>div>div>span {
+            padding-left: 38px;
+        }
+
+        .tag>b {
+            padding-left: 38px;
+        }
+
+        .footer {
+            width: 1512px;
+            background: #0e080b;
+            margin: auto;
+
+        }
+
+        .footer>div>img {
+            width: 200px;
+            height: 221px;
+            gap: 0px;
+            opacity: 0px;
+            margin-left: 658px;
+            margin-top: 64px;
+        }
+
+        .footer>div>ul {
+            display: flex;
+            text-align: left;
+        }
+
+        .footer>div>h4 {
+            width: 114px;
+            height: 26px;
+            top: 252px;
+            left: 699px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 25.64px;
+            letter-spacing: 1.7090909481048584px;
+            text-align: left;
+            color: #720005;
+            margin-left: 699px;
+            margin-top: -45px;
+
+        }
+
+        .list>ul {
+            width: 618px;
+            height: 20px;
+            top: 302px;
+            left: 447px;
+            gap: 0px;
+            opacity: 0px;
+            justify-content: space-between;
+            margin-left: 420px;
+
+        }
+
+        .list>ul>li {
+            font-family: Poppins;
+            font-size: 12.82px;
+            font-weight: 600;
+            line-height: 19.23px;
+            text-align: left;
+            color: #FFFFFF;
+            list-style: none;
+        }
+
+        .footer>div:last-child {
+            display: flex;
+            gap: 13.73px;
+            margin-left: 700px;
+            margin-bottom: 38.53px;
+        }
+
+        .footer>div>div>img {
+            width: 27.47px;
+            height: 27.47px;
+            gap: 0px;
+            opacity: 0px;
+            margin-bottom: 39px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="container">
+            <div class="nav">
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/79e0/db14/6de61e6b7e512045a7cc5fab1681c6dc?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hM7gK82HiBxLcyGWB~6KcrWQZEu3EzGlCvogEvSg9mWcgQI-89YQPN78371u0FBzb4Y~lH~hNdqMrSxHZDFR-Xi8~aTB1gAzeSUo~ehTsEbyPYpc6~vbAxfpSB0fcJAcQPUok-fX4lY2RbRXfJbrm2-q2bP7AzXGKQlTh29FjWz7XJxWSF46BhwMiXZ-hwzEd-9T-5HtUTlQRcCb2iAs95e7kMcmijju51q8OuHOwhoz4A3mttsnKLZkyvn5AdXZz-un0qvrV8opsLRRwGdszTgu-3UloqtpMBdbgvEM6Lel9TtMId5oxZrGu4gMV1ODINF1H90ymanxp6BTMBVUCA__"
+                        alt="">
+                </div>
+                <div>
+                    <h4>Saviour</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li>Home</li>
+                        <li>IDO</li>
+                        <li>Tokenomics</li>
+                        <li>Roadmap</li>
+                        <li>Coming soon</li>
+                    </ul>
+                </div>
+                <div>
+                    <button>Connect Wallet</button>
+                </div>
+            </div>
+            <h2><b>Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.</b></h2>
+        </div>
+        <div class="intro">
+            <div>
+                <div>
+                    <h2>Introduction</h2>
+                </div>
+                <div>
+                    <p>We've all been in the mud once, and now we've decided to fight it out.
+                        Pay tribute to those pioneers of WEB3 and the warriors who dedicated their love to the
+                        blockchain. Save the lucky ones alive, join us to save the future!
+                        Our mission is to empower everyone to share wealth and succeed.
+                        <br>read more...
+                    </p>
+                </div>
+                <div>
+                    <button>Documents</button>
+                </div>
+            </div>
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/72d9/2d64/713f95c34c945a62844515044f63fcd4?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dZhNliVz4myymbvUm1JlAQkQbIbWgvXyQtmjGV3oVQpTsis42o3vo349siVJTBEnsowXmKk9jfN~Oh5scmztvX3vwrVYXKsV94WsywYglbKn2dH0ZICaOK4OGnCDE1j5f41~3-jxSrKgwlQE6zUwlT5mvaHoSdGqZNMdZVTBDmlsjBfHQj~sFhsVhwv0vNGTsQLvrwnQ~CqzyJTaDFW0noD-WXQPRCtRSizejAuMhWXCqemYSy7Q9HZrwkmGr09s1hITalkBx8NwLvUUsAdvCBWcx820nU97YrMW3VwfMUYAyL~f-kNtOuDzx7d1-j~H2BrGVkWTkgtT9-E0y9M8NQ__"
+                    alt="">
+            </div>
+        </div>
+        <div class="map">
+            <div>
+                <h2>Road Map</h2>
+            </div>
+            <div>
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/4b01/5d0d/f2954eaf00df1cee6eb3039a08679aa7?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bDqn7Y0dxDvSNjCtVyoLE8Tp0YNDH9rmrC4MWJdebpAnLMQt5RnwF9xcxW6MpG1QMV35~pf3YLlfqosTnxZbrLLvMFdMmg5q1IXnofc4CTaC0QWoWREaJBblBahYA5DODrILtYiq2ltqqTgCLTAQQpnl8uyE8ALTUxc37vBJhoSlcY3ybBpMvgfhBCUp27UdR5djm6OuPKJBU5~gXBQILPRO2JB8XadG~rQRqOAcWn-0EV49GdNLDKjFwWY8SsTyeMCd42m5gSkpzsEWrChzcAubRGxu4JZ0aGgGPuxBar0Gb80axALDXQs5Nxrj0CleVpM~WbWEd0v0XC1JuSKGEA__"
+                        alt="">
+                </div>
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/aa29/8bb9/151666f4ac7fae86b6b63f7e97472d61?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P-CQ0l5MANLQ2CEhymkbK1tgUlf4hyrBZQxsDy8B7smqWH0B3hXX76RzEJF6glv~GdAZME~CSznv7U1qmrIjg10Di~3A45H-bwGFubGE87LcvqZ~p9cPmqadCW2G7wYhOhMvQSEVm876R6Qr-aL6Kp293TdXJsv3TbqRaNKozrdmQc~TdFZAa~EoEHSL2PBCBSDCQBI9m~QIb89TmHL-ZKJaqj1TrBL1tOqmdvUIkhCQkpNjgXupdrgyEUxo~ZnScASyrBPPmoAmPZDmTqm8b80hiw1~3I1y5~aJA8J3TAQBOb-DwRLkcJ64d3O0YTUyvChbyXLZjCv6CEk57H~oNQ__"
+                        alt="">
+                </div>
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/6c61/fbae/ca9bd789f6b5490e4ac71b41b57d2d90?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hM6tK2c3IgFiXFRtv5yVR8K3ZX~QKup6wRWJWPmKaYlKGMrNgV1ZRQ8TTGbpIc7C6lIKCS1v7jBKsRYjQ7EANFHNH3Lzh-8eCkKqLpTKLhfI-T9wMzg7WjmHsbpHq2RzFF2q1fXcDyDY5Bs5JhM-kX0QOx1pp~453c~5YBB6HY97WB9rQ-C~-9ow4lwa5CeSGg2ZRBDciTmPfnaWX4LFcYLtGAx89CfDD6zkDj8sjaJwVjjEKRT1ckVSlxUS~P4GMaND16cxshO6lIlpxIwDMbfhraoZe3e-npjFF7a8rY5uOaQhGx~ssY0nwa7vKsGZfdFhJKhse1CXOHxDSMREGg__"
+                        alt="">
+                </div>
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/e792/f455/d02fe23b0b95b2461d5ab0db33cfb4b7?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iCwPaLtnkRw1BnAIY0sfhIBUW~X~QJgY99hJ7wzakWRdA4-vfSr7x6-kvK-ifheA3tF0h20~0-zTJkD2b8Bw6HFqT-4zPNMCYfT0-py9HJg14DH5LS7KUgyxq~FLbQLGNM3f5Gt~yUyCPh3sYrXE8zL4rZqK~Es4buMuE8mX70rlvU6vKq55JtoB-rbiHoylMmDVbZEFVt2usK~7j-0BvnUdYcUzvrd~eaP-MLBow4M3BLTnUcI7kFZ2E1wFWcwklDj6s6DuoicfOndqg-f-984PgF2ng4TH5Q5SF7A1jYCbd6OzP5QIk7IloRe927fkD0tqHPTi85~nFycxuL0lbA__"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="faq">
+            <h2>FAQ</h2>
+            <div>
+                <div>
+                    <img src="https://s3-alpha-sig.figma.com/img/7624/956b/bb5893d955ab92e34ab86102a42d6d23?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qyXT7MpSaEU-7391U~AnO9T7Eqt1wLhNR8UWy1S-Febsuga8Vne5236Vien8zuYSWHJXH4b5QA6GdXjVrqr-wFAIQVvqEJQFfaOqS-8~cxIk0CQmRo0yutBU47fAlyg9qcvBA5WjAYZEu7NrFhSRqK8XTtcMqJgLGnK61QnmImr6-nfN1s6cRykW6Z3IVRQE0V--rRWs-eTW9NqYoENzZiNEI-EI~8ifqt0GnbiI9nYFTPPfEnSEdo9rO~g~VvsBK5k7FXRpysXqs8IbMn4qIf94GNBNHPsEUEL8rjtnDHJQ7W21Kehju87dIN8CIQwOoWX-ZYECRFSWfrDwWqcsbg__"
+                        alt="">
+                </div>
+                <div>
+                    <div>
+                        <span><b>1</b></span>
+                        <span class="tag"><b>Why choose "Savior"?</b></span>
+                    </div>
+                    <div>
+                        <span><b>2</b></span>
+                        <span class="tag"><b>Why is the IDO duration so long?</b></span>
+                    </div>
+                    <div>
+                        <span><b>3</b></span>
+                        <span class="tag"><b>When will trading go live?</b></span>
+                    </div>
+                    <div>
+                        <span><b>4</b></span>
+                        <span class="tag"><b>When can we claim the tokens?</b></span>
+                        <p>After the IDO concludes, you can claim the tokens on our official website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/79e0/db14/6de61e6b7e512045a7cc5fab1681c6dc?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hM7gK82HiBxLcyGWB~6KcrWQZEu3EzGlCvogEvSg9mWcgQI-89YQPN78371u0FBzb4Y~lH~hNdqMrSxHZDFR-Xi8~aTB1gAzeSUo~ehTsEbyPYpc6~vbAxfpSB0fcJAcQPUok-fX4lY2RbRXfJbrm2-q2bP7AzXGKQlTh29FjWz7XJxWSF46BhwMiXZ-hwzEd-9T-5HtUTlQRcCb2iAs95e7kMcmijju51q8OuHOwhoz4A3mttsnKLZkyvn5AdXZz-un0qvrV8opsLRRwGdszTgu-3UloqtpMBdbgvEM6Lel9TtMId5oxZrGu4gMV1ODINF1H90ymanxp6BTMBVUCA__"
+                    alt="">
+                <h4>SITEMAP</h4>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Home</li>
+                    <li>IDO</li>
+                    <li>Tokenomics</li>
+                    <li>Road Map</li>
+                    <li>Whitepaper</li>
+                    <li>Pledge</li>
+                    <li>NFT</li>
+                    <li>Games</li>
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <img src="https://i1.wp.com/www.configuroweb.com/wp-content/uploads/2016/06/Twitter_logo_red.png?resize=1024%2C833&ssl=1"
+                        alt="">
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5801/5801616.png" alt="">
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5668/5668246.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
